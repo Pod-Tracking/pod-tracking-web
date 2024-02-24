@@ -43,7 +43,8 @@ Welcome to the web repository of Pod Tracking! Pod Tracking is a application tha
 
 1. Set up [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 2. If using [VS Code](https://code.visualstudio.com/), download the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-   a. VS Code has the ability to auto-format your files on save. If you want to auto-format on save, then you'll have to go into the VS Code settings and enable `Format On Save`. This will format your files according to the project's prettier settings (specified in the `.prettierrc` file).
+
+VS Code has the ability to auto-format your files on save. If you want to auto-format on save, then you'll have to go into the VS Code settings and enable `Format On Save`. This will format your files according to the project's prettier settings (specified in the `.prettierrc` file).
 
 ## Getting Started
 
