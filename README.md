@@ -29,9 +29,9 @@ Welcome to the web repository of Pod Tracking! Pod Tracking is a application tha
 
 ## Tech Stack
 
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></a>
-<a href="https://react.dev/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></a>
-<a href="https://tailwindcss.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></a>
+<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" height="50" /></a>
+<a href="https://react.dev/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" height="50" /></a>
+<a href="https://tailwindcss.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" height="50" /></a>
 
 - **TypeScript:** Our primary programming language offering explicit types for organization and scalability
 - **React:** Used for building complex web applications through the use of smaller components
@@ -58,4 +58,16 @@ Install/use the correct node version:
 nvm use
 ```
 
-If you don't have the node version specified in the `.nvmrc` file, this command will install it and start using it. If you already have the correct version installed, NVM will switch to that node version.
+**NOTE:** If you don't have the node version specified in the `.nvmrc` file, this command will install it and start using it. If you already have the correct version installed, NVM will switch to that node version.
+
+Install node modules:
+
+```
+npm i
+```
+
+Run the project locally:
+
+```
+npm run dev
+```
