@@ -71,6 +71,12 @@ Clone the repository:
 git clone git@github.com:Pod-Tracking/pod-tracking-web.git
 ```
 
+Navigate into the project folder
+
+```
+cd pod-tracking-web
+```
+
 Install/use the correct node version:
 
 ```
@@ -89,4 +95,10 @@ Run the project locally:
 
 ```
 npm run dev
+```
+
+Copy the `Local` URL and past it into your browser
+
+```
+http://localhost:5173
 ```
