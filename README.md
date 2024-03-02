@@ -42,9 +42,26 @@ Welcome to the web repository of Pod Tracking! Pod Tracking is a application tha
 ## Project Prerequisites
 
 1. Set up [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
-2. If using [VS Code](https://code.visualstudio.com/), download the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+2. If using [VS Code](https://code.visualstudio.com/), download the following extensions:
+   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+     - Used for auto formatting your code according to the project's formatting standards
+   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+     - Allows you to see linting errors/warnings within VS Code
+   - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+     - Shows tailwind css class suggestions
 
-VS Code has the ability to auto-format your files on save. If you want to auto-format on save, then you'll have to go into the VS Code settings and enable `Format On Save`. This will format your files according to the project's prettier settings (specified in the `.prettierrc` file).
+Once you've downloaded the extensions listed above, you'll need to configure some settings within VS Code in order for the Prettier and Tailwind CSS IntelliSense extensions to work properly.
+
+### Prettier Settings
+
+If you want to auto-format on save, go into the VS Code settings and search for `Format On Save`. Make sure this is **enabled**. This will format your files according to the project's prettier settings (specified in the `.prettierrc` file) every time you manually save the file.
+
+### Tailwind CSS Settings
+
+1. In the VS Code settings, search for `Files: Associations`. Click on the `Add Item` button and input `*.css` for the `key` and `tailwindcss` for the `value`.
+   - This allows tailwind to work within our CSS files.
+2. In the VS Code settings, search for `Editor: Quick Suggestions`. Hover over the `strings` row and click on the edit button (pencil icon). Select the `on` option.
+   - This allows for auto-complete within `className` strings, which allows the Tailwind CSS IntelliSense extension to show you tailwind class names.
 
 ## Getting Started
 
