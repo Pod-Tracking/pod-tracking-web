@@ -1,13 +1,6 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { RouterProvider } from 'react-router-dom';
 
-import { SearchCommander } from './pages/search-commander';
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <SearchCommander />,
-  },
-]);
+import { router } from './routes';
 
 function App() {
   return <RouterProvider router={router} />;
