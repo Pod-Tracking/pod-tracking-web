@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Welcome to the web repository of Pod Tracking! Pod Tracking is a application that allows Magic The Gathering players to track their group's game history, game and player statistics, and eventually, deck statistics. This repository houses the codebase for our front end application, crafted using TypeScript and React.
+Welcome to the web repository of Pod Tracking! Pod Tracking is a application that allows Magic The Gathering players to track their group's game history, game and player statistics, and eventually, deck statistics. This repository houses the codebase for our backend services, crafted using Python and the Django REST framework.
 
 ---
 
@@ -71,12 +71,6 @@ Clone the repository:
 git clone git@github.com:Pod-Tracking/pod-tracking-web.git
 ```
 
-Navigate into the project folder
-
-```
-cd pod-tracking-web
-```
-
 Install/use the correct node version:
 
 ```
@@ -95,10 +89,4 @@ Run the project locally:
 
 ```
 npm run dev
-```
-
-Copy the `Local` URL and past it into your browser
-
-```
-http://localhost:5173
 ```

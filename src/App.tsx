@@ -1,9 +1,18 @@
-import { RouterProvider } from 'react-router-dom';
-
-import { router } from './routes';
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import LandingPage from './components/LandingPage/landingPage'
 
 function App() {
-  return <RouterProvider router={router} />;
+
+  return (
+    <>
+      <div className='App'>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
